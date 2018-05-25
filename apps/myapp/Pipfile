@@ -1,0 +1,57 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3.6"
+
+[packages]
+arrow = "*"
+blessings = "*"
+"boto3" = "*"
+coreapi = "*"
+datadog = "*"
+dj-database-url = "*"
+django-codemirror-widget = "*"
+django-cors-headers = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+django-filter = "*"
+django-object-actions = "*"
+django = ">=1.11,<2.0"
+djangorestframework-filters = "*"
+djangorestframework = "*"
+drf-nested-routers = "*"
+envdir = "*"
+"jinja2" = {git = "https://github.com/pallets/jinja"}
+htmlmin = "*"
+"jinja2-pluralize" = "*"
+newrelic = "*"
+"psycopg2" = "*"
+pytest = "*"
+raven = "*"
+slackclient = "*"
+slacker = "*"
+toolz = "*"
+tweepy = "*"
+uwsgi = "*"
+whitenoise = "==4.0b3"
+"django-tinymce4-lite" = "*"
+"1308583" = {path = "../../lib/python", editable = true}
+"py2neo" = "*"
+nameparser = "*"
+inflect = "*"
+pytz = "*"
+"574e53a" = {path = "./../../lib/python", editable = true}
+flask = "*"
+
+[dev-packages]
+yq = "*"
+jira-cli = "*"
+ipython = "*"
+livereload = "*"
+flask = "*"
+"py2neo" = "*"
+nameparser = "*"
+pytz = "*"
+tqdm = "*"
