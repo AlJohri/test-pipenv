@@ -3,6 +3,7 @@
 Note how Step 10/11 of the build below has `--system` in there but it still says `Creating a virtualenv for this project…`.
 
 ```
+$ cd apps/myapp
 $ docker-compose up --build
 
 Building app
